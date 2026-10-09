@@ -1,0 +1,43 @@
+name: Aircraft alerts
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"     # every 5 minutes (GitHub's minimum; runs can lag)
+  workflow_dispatch:           # adds a "Run workflow" button for testing
+
+permissions:
+  contents: write              # lets the job save which planes it already alerted on
+
+concurrency:
+  group: aircraft-alerts
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      # Polls for 4 minutes so short helicopter flights between runs aren't missed
+      - name: Check for interesting aircraft
+        env:
+          HOME_LAT: ${{ secrets.HOME_LAT }}
+          HOME_LON: ${{ secrets.HOME_LON }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python aircraft_alerts.py --minutes 4
+
+      # Saves the "already alerted" memory back to the repo for the next run
+      - name: Save state
+        run: |
+          git config user.name "aircraft-alerts-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add aircraft_seen.json aircraft_log.csv plane-alert-db.csv 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "Update aircraft alert state"
+          git pull --rebase && git push
