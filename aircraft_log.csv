@@ -2,3 +2,4 @@ time_utc,hex,callsign,reg,type,alt_ft,dist_nm,military,reason
 2026-10-09T19:10:12+00:00,ae1177,RCH211,02-1105,C17,38000,42.0,True,USAF · USAF
 2026-10-09T19:52:15+00:00,ae0a08,G24412,85-24412,H60,8800,25.7,True,United States Army · Toy Soldiers
 2026-10-09T21:48:56+00:00,ae07af,,61-0275,K35R,8900,29.7,True,USAF · USAF
+2026-10-10T21:33:57+00:00,ae0687,RCH443,60-0349,K35R,ground,17.2,True,USAF · USAF
