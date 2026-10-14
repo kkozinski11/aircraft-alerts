@@ -20,3 +20,4 @@ time_utc,hex,callsign,reg,type,alt_ft,dist_nm,military,reason
 2026-10-13T23:32:42+00:00,ae0bec,G026022,88-26022,H60,5400,6.5,True,Military helicopter
 2026-10-13T23:32:42+00:00,ae116a,PAT101,84-00166,BE20,10875,15.9,True,United States Army · Toy Soldiers
 2026-10-14T00:41:29+00:00,ae5140,R95676,09-05676,H64,5500,7.3,True,Military helicopter
+2026-10-14T04:05:12+00:00,ae10b8,MYSTC19,01-0189,C17,15775,37.1,True,USAF · USAF
