@@ -37,3 +37,4 @@ time_utc,hex,callsign,reg,type,alt_ft,dist_nm,military,reason
 2026-10-15T23:08:43+00:00,ae10b8,MYSTC19,01-0189,C17,14975,31.0,True,USAF · USAF
 2026-10-16T02:28:00+00:00,ae5140,,09-05676,H64,5500,11.3,True,Military helicopter
 2026-10-16T04:08:54+00:00,ae6372,G83198,18-03198,H64,4800,14.6,True,Military helicopter
+2026-10-16T18:04:01+00:00,ae0bec,G026022,88-26022,H60,3900,6.3,True,Military helicopter
