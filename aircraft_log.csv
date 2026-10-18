@@ -44,3 +44,4 @@ time_utc,hex,callsign,reg,type,alt_ft,dist_nm,military,reason
 2026-10-18T03:21:04+00:00,adfe90,PAT413,95-00091,BE20,ground,22.9,True,United States Army · Toy Soldiers
 2026-10-18T17:30:29+00:00,ae116a,PAT237,84-00166,BE20,10325,18.3,True,United States Army · Toy Soldiers
 2026-10-18T17:30:30+00:00,c05669,CGGSU,C-GGSU,DC3,6500,29.1,False,CGG Aviation · Historic
+2026-10-18T20:13:00+00:00,ae4cf5,MSTNG50,08-08750,H47,7400,25.5,True,Military helicopter
