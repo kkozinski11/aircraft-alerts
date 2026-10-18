@@ -42,3 +42,5 @@ time_utc,hex,callsign,reg,type,alt_ft,dist_nm,military,reason
 2026-10-17T22:01:05+00:00,ae145f,RCH5050,06-6161,C17,14550,36.9,True,USAF · USAF
 2026-10-17T22:26:56+00:00,ae6043,RAIDR10,169533,C30J,24000,40.9,True,United States Marine Corps · United States Marine Corps
 2026-10-18T03:21:04+00:00,adfe90,PAT413,95-00091,BE20,ground,22.9,True,United States Army · Toy Soldiers
+2026-10-18T17:30:29+00:00,ae116a,PAT237,84-00166,BE20,10325,18.3,True,United States Army · Toy Soldiers
+2026-10-18T17:30:30+00:00,c05669,CGGSU,C-GGSU,DC3,6500,29.1,False,CGG Aviation · Historic
