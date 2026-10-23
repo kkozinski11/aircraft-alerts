@@ -88,3 +88,4 @@ time_utc,hex,callsign,reg,type,alt_ft,dist_nm,military,reason
 2026-10-22T14:54:56+00:00,ae0bec,G026022,88-26022,H60,4400,6.2,True,Military helicopter
 2026-10-23T19:55:46+00:00,ae10b7,GOTHAM5,01-0188,C17,21175,47.8,True,USAF · USAF
 2026-10-23T21:39:17+00:00,ae56ac,R20580,13-20580,H60,8425,37.2,True,Military helicopter
+2026-10-23T23:13:13+00:00,ae4afe,AEGIS51,08-5693,C30J,28000,45.1,True,USAF · USAF
