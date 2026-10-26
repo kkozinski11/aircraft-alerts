@@ -98,3 +98,4 @@ time_utc,hex,callsign,reg,type,alt_ft,dist_nm,military,reason
 2026-10-25T19:39:09+00:00,ae1234,RCH3123,03-3123,C17,35000,18.2,True,USAF · USAF
 2026-10-26T17:07:39+00:00,ae058e,,58-0021,K35R,25000,28.6,True,USAF · USAF
 2026-10-26T17:47:03+00:00,ae0bec,G026022,88-26022,H60,5500,3.2,True,Military helicopter
+2026-10-26T18:23:02+00:00,adfebe,LOST15,96-00108,C560,9725,25.7,True,United States Army · Toy Soldiers
