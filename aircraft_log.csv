@@ -143,3 +143,4 @@ time_utc,hex,callsign,reg,type,alt_ft,dist_nm,military,reason
 2026-11-03T17:24:54+00:00,ae0663,INDY81,60-0364,K35R,35950,54.6,True,USAF · USAF
 2026-11-03T17:24:54+00:00,ae042c,SALTY51,64-14828,K35R,ground,16.8,True,USAF · USAF
 2026-11-03T21:03:46+00:00,ae03e5,MOAB8,164998,C130,10750,58.8,True,United States Navy · United States Navy
+2026-11-03T21:49:43+00:00,ae634d,G72469,21-72469,EC45,ground,16.6,True,Military helicopter
