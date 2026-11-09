@@ -168,3 +168,4 @@ time_utc,hex,callsign,reg,type,alt_ft,dist_nm,military,reason
 2026-11-07T15:39:09+00:00,ae6359,G72481,22-72481,EC45,ground,16.6,True,Military helicopter
 2026-11-07T21:03:52+00:00,ae64ae,G21083,19-21083,H60,10325,36.9,True,Military helicopter
 2026-11-08T02:30:52+00:00,ae0a09,G24433,85-24433,H60,5200,9.5,True,Military helicopter
+2026-11-09T20:22:59+00:00,ae0dbf,,84-23952,H60,ground,6.3,True,Military helicopter
